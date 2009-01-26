@@ -16,16 +16,21 @@ limitations under the License.
 
 
 package  nl.acidcats.yalog.test {
-	import nl.acidcats.yalog.Yalog;
-	
-	import flash.display.MovieClip;	
-
-	public class YalaTest extends MovieClip {
+	import nl.acidcats.yalog.Yalog;		import flash.display.MovieClip;	import flash.utils.getQualifiedClassName;	
+	public class YalaTest extends MovieClip {
 		public function YalaTest() {
 			super();
 			
-			Yalog.debug("Yala Debug: ", toString());
-			Yalog.warn("Yala Warn: ", toString());
-			Yalog.info("Yala Info: ", toString());
+			trace("Here");
+			
+			Yalog.debug("Yalog Debug: ", toString());
+			Yalog.warn("Yalog Warn: ", toString());
+			Yalog.info("Yalog Info: ", toString());
+			Yalog.error("Yalog Error: ", toString());
+			Yalog.fatal("Yalog Fatal", toString());
+		}
+		
+		override public function toString():String {
+			return getQualifiedClassName(this);
 		}	}
 }
