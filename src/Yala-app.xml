@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<application xmlns="http://ns.adobe.com/air/application/1.5">
+
+  <version>2.2</version>
+
+  <id>nl.acidcats.Yala</id>
+  <filename>Yala</filename>
+  <description>Viewer for Yalog output messages from Flash applications</description>
+  <name>Yala</name>
+
+  <copyright>(c) Stephan Bezoen 2006-2009</copyright>
+
+  <initialWindow>
+    <content>Yala.swf</content>
+    <visible>true</visible>
+  </initialWindow>
+
+  <icon>
+    <image16x16>icons/Yala16.png</image16x16>
+    <image32x32>icons/Yala32.png</image32x32>
+    <image48x48>icons/Yala48.png</image48x48>
+    <image128x128>icons/Yala128.png</image128x128>
+  </icon>
+
+  <customUpdateUI>false</customUpdateUI>
+
+  <allowBrowserInvocation>false</allowBrowserInvocation>
+
+</application>
