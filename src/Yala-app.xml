@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no" ?>
 <application xmlns="http://ns.adobe.com/air/application/1.5">
 
-  <version>3.0</version>
+  <version>3.0.1</version>
 
   <id>nl.acidcats.yalog.Yala</id>
   <filename>Yala</filename>
