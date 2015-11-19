@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <application xmlns="http://ns.adobe.com/air/application/3.2">
     <id>Yala</id>
-    <versionNumber>1.0</versionNumber>
+    <versionNumber>2.0</versionNumber>
     <filename>Yala</filename>
     <description></description>
     <!-- To localize the description, use the following format for the description element.
@@ -35,6 +35,6 @@
     </initialWindow>
     <customUpdateUI>false</customUpdateUI>
     <allowBrowserInvocation>false</allowBrowserInvocation>
-    <icon></icon>
+    <icon><image16x16>AppIconsForPublish/Yala16.png</image16x16><image32x32>AppIconsForPublish/Yala32.png</image32x32><image48x48>AppIconsForPublish/Yala48.png</image48x48><image128x128>AppIconsForPublish/Yala128.png</image128x128></icon>
     
-<version>4.0.0</version></application>
+<version>4.0</version></application>
